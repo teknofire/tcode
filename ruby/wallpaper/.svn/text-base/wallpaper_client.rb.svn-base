@@ -1,0 +1,12 @@
+require 'drb'
+
+def go
+  $obj.go
+end
+
+def back
+  $obj.back
+end
+
+DRb.start_service()
+$obj = DRbObject.new(nil, 'druby://localhost:9000')
