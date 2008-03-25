@@ -4,7 +4,7 @@ Will start a drb server that will used to automaticly rotate a background image 
 
 Connect to the drb service by running
 
-> irb -r wallpaper_client.rb
+$ irb -r wallpaper_client.rb
 => w = connect
 => w.go   # to display the next wallpaper
 => w.back # to display the prev wallpaper
