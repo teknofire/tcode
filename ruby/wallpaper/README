@@ -2,6 +2,9 @@ Description:
 
 Will start a drb server that will used to automaticly rotate a background image on your desktop.
 
+Start the service by running
+$ ruby wallpaper_server.rb
+
 Connect to the drb service by running
 
 > irb -r wallpaper_client.rb
